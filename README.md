@@ -1,6 +1,6 @@
 # Projeto Conceitual Banco de Dados
 
-### Desenvolvimento inicial para três modelos de Banco de Dados Conceitual:
+### Desenvolvimento inicial para modelos de Banco de Dados Conceitual:
 - Ordem de Serviço;
 - Universidade;
 - E-commerce.
