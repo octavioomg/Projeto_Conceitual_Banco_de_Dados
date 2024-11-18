@@ -1,9 +1,10 @@
-# Projeto Conceitual Banco de Dados
+# Projetos Conceituais Banco de Dados
 
 ### Desenvolvimento inicial para modelos de Banco de Dados Conceitual:
 - Ordem de Serviço;
 - Universidade;
-- E-commerce.
+- E-commerce;
+- Oficina Mecânica.
 
 Cada um dos modelos foram aplicados conceitos envolvendo modelagem de dados, utilizando a ferramenta MySQL - Workbench, para criação das entidades de relacionamento.
 
@@ -60,6 +61,27 @@ Contexto:
 ### Esquema conceitual:
 
 ![Modelo_Ecommerce](https://github.com/user-attachments/assets/27a7e3c5-a372-4aa3-b1d6-3794b8e96850)
+
+
+## 
+### Modelo BD - Oficina Mecânica
+
+Contexto:
+- Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica;
+- Clientes levam veículos à oficina mêcanica para serem consertados ou para passarem por revisões periódicas;
+- Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega;
+- Os mecânicos possuem código, nome, endereço e especialidade;
+- Cada OS possui: n°, data de emissão, um valor, status e uma data para conclusão dos trabalhos;
+- Uma OS pode ser composta por vários serviços e um mesmo serviço pode estar contido em mais de uma OS;
+- Uma OS pode ter vários tipos  de peça e uma peça pode estar presente em mais de uma OS;
+- A partir da OS, calcula-se o valor de cada serviço, consultando-se uma tabela de referência de mão-de-obra;
+- O valor de cada peça também irá compor a OS;
+- O cliente autoriza a execução dos serviços;
+- A mesma equipe avalia e executa os serviços.
+
+### Esquema conceitual:
+
+![Modelo_Oficina_Mecanica](https://github.com/user-attachments/assets/f1a5fbf5-ddd1-4222-8644-029fee3be4c3)
 
 
 ##
